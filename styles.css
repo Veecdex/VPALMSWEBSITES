@@ -365,10 +365,7 @@ p {
 }
 
 /* About Us Section */
-.about-section {
-  text-align: center;
-  padding: 40px;
-}
+
 
 .about-intro {
   text-align: left;
@@ -398,4 +395,36 @@ p {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
+}
+.about-section {
+  text-align: center;
+  padding: 40px;
+  background-attachment: fixed; /* Add this line for parallax effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services-section {
+  text-align: center;
+  padding: 80px 20px;
+  background-attachment: fixed; /* Add this line for parallax effect */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-section {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  /* Add any other styles you want for the parallax effect */
+}
+
+.section-content {
+  position: relative;
+  z-index: 2;
+  /* Add any other styles for the content */
 }
