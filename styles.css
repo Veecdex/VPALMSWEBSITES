@@ -1,0 +1,401 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #c5acf1;
+  background-image: url('ge.jp');
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+}
+h3{
+  color: black;
+}
+/* Add the following styles to your existing CSS */
+/* Add the following styles to your existing CSS */
+/* Add the following styles to your existing CSS */
+
+/* Add the following styles to your existing CSS */
+/* Add the following styles to your existing CSS */
+
+/* Add the following styles to your existing CSS */
+/* Add the following styles to your existing CSS */
+.footer-icon {
+width: 70px; /* Adjust the width as needed */
+height: 70px; /* Adjust the height as needed */
+border-radius: 40px;
+margin-right: 10px;
+cursor: pointer;
+}
+
+.footer-logo {
+width: 50px; /* Adjust the width as needed */
+height: 50px; /* Adjust the height as needed */
+border-radius: 50%;
+}
+
+.footer-button {
+background-color: #543c8e;
+color: white;
+padding: 10px 20px;
+border: 1px solid white;
+border-radius: 5px;
+margin: 5px;
+text-decoration: none;
+display: block;
+width: fit-content;
+}
+
+.footer-button:hover {
+background-color: white;
+color: #543c8e;
+}
+
+.footer-container {
+margin-bottom: 20px;
+}
+
+.contact-item {
+color: white;
+}
+
+
+.scroll-to-top-btn {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 20px;
+background-color: #543c8e;
+color: white;
+border: none;
+border-radius: 50%;
+padding: 15px;
+font-size: 24px;
+cursor: pointer;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.scroll-to-top-btn:hover {
+background-color: #423075;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+transform: scale(1.1);
+}
+
+
+.contact-details {
+background-color: white;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+padding: 20px; /* Adjust padding as needed */
+}
+
+.contact-item {
+margin-bottom: 15px;
+}
+
+.contact-label {
+font-weight: bold;
+display: block;
+color: #333;
+}
+
+.contact-info {
+color: #555;
+}
+
+.contact-section {
+text-align: center;
+padding: 40px;
+}
+
+.about-intro img {
+width: 100%;
+border-radius: 15px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+margin-top: 20px;
+}
+
+.contact-details {
+text-align: left;
+margin-top: 20px;
+}
+
+.contact-item {
+margin-bottom: 15px;
+}
+
+.contact-label {
+font-weight: bold;
+display: block;
+color: #333;
+}
+
+.contact-info {
+color: #555;
+}
+
+/* Make the contact section responsive */
+@media (max-width: 767px) {
+.about-intro img {
+    border-radius: 0; /* Remove border-radius on smaller screens if needed */
+}
+}
+
+
+/* Make the contact section responsive */
+@media (max-width: 767px) {
+.about-intro img {
+    width: 100%;
+}
+}
+
+.service-container {
+background-color: #543c8e;
+border-radius: 15px;
+margin: 20px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+
+.service-content .text {
+flex-grow: 1;
+}
+
+/* Update the text color for better visibility */
+.service-content h3 {
+color: #fff;
+}
+
+.service-container button {
+background-color: #fff;
+color: #543c8e;
+border: 1px solid #543c8e;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s;
+}
+
+.service-container button:hover {
+background-color: #543c8e;
+color: #fff;
+}
+
+/* Make containers responsive */
+@media (max-width: 767px) {
+.service-content {
+flex-direction: column;
+text-align: center;
+}
+
+.service-container button {
+margin-top: 10px;
+}
+}
+
+
+
+/* Add shadows to service containers */
+.service-container {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.services-section {
+border-radius: 15px;
+text-align: center;
+padding: 80px 20px;
+background-color: white; /* Set background color to white */
+}
+
+.service-container {
+background-color: #543c8e; /* Set the button color */
+color: white; /* Set text color to white */
+border-radius: 10px; /* Add border radius */
+padding: 20px;
+margin: 20px;
+text-align: left;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.services-section h2,
+.services-section p {
+color: #543c8e; /* Set text color to match the button color */
+}
+
+/* Adjust margin-bottom for better spacing */
+.services-section h2 {
+margin-bottom: 20px;
+}
+
+.carousel-inner img {
+  margin-top: 2px;
+  border-radius: 15px;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.navbar {
+  background-color: #543c8e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  color: black;
+  transition: background-color 0.3s;
+}
+
+.navbar-brand img {
+  max-width: 50px;
+}
+
+.navbar-nav {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.services-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.services-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.service-container {
+    background-color: #543c8e;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service-container h3 {
+  color: #543c8e;
+}
+
+.service-container p {
+  color: white;
+}
+
+.services-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.nav-item {
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.3s;
+}
+
+.nav-item:hover {
+  background-color: #543c8e;
+}
+
+.active {
+  border-bottom: 2px solid white;
+}
+
+.call-button {
+  background-color: #543c8e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.call-button i {
+  margin-right: 5px;
+}
+
+.landing-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.landing-nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.services-text {
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.show-text {
+  opacity: 1;
+}
+
+/* About Us Section */
+.about-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.about-intro {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.navbar-nav .nav-link.active {
+  text-decoration: underline white; /* Adjust the styling as needed */
+}
+.about-intro p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666666;
+}
+
+.start-now-button {
+  background-color: #543c8e;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.about-image {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
