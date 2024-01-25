@@ -1,0 +1,38 @@
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+
+
+@media (max-width: 768px) {
+
+
+#imageSlider {
+    border-radius: 15px;
+    height: 400px; /* Default height for larger screens */
+    overflow: hidden; /* Ensure that the content doesn't overflow */
+    margin-left: 10px; /* Increased margin to the left */
+    margin-right: 10px; /* Increased margin to the right */
+    margin-top: 60px; /* Added margin-top to ensure the image is not under the navbar */
+}
+
+#imageSlider img {
+    object-fit: cover;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%; /* Ensure the image covers the entire container */
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    /* Media query for screens up to 767px width (typically mobile devices) */
+    #imageSlider {
+        height: 150px; /* Adjust the height for smaller screens */
+        margin-top: 60px; /* Adjusted margin-top for smaller screens */
+    }
+
+
+}
